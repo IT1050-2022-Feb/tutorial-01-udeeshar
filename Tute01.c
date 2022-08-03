@@ -4,7 +4,20 @@
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
+  float a,b,tot,average;
+  printf("Enter number 1:");
+  scanf("%f",&a);
+
+  printf("Enter number 2:");
+  scanf("%f",&b);
+
+  tot=a+b;
+  average=tot/2;
+  printf("Average of the two marks is: %.2f",average);
+
+  
+  
   
   return 0;
 }
